@@ -1,14 +1,21 @@
 
+import PropTypes from 'prop-types';
 
 
-export const FirstApp = () => {
+export const FirstApp = ( {title = "Hola, mensaje por defecto ", subTitle } ) => {
 
     return (
         <> {/*  Allows you to group multiple items together as previously done with Fragments */}
         
-        <h1> Daniel </h1>
-        <h2> Velásquez {1 + 3}</h2>
+        <h1>{ title }</h1>
+        <h2>{subTitle}</h2>
         </>
     );
 
+}
+
+FirstApp.propTypes = {
+
+    title: PropTypes.string.isRequired,
+    subTitle: PropTypes.number.isRequired
 }
