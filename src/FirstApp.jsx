@@ -17,5 +17,10 @@ export const FirstApp = ( {title = "Hola, mensaje por defecto ", subTitle } ) =>
 FirstApp.propTypes = {
 
     title: PropTypes.string.isRequired,
-    subTitle: PropTypes.number.isRequired
+    subTitle: PropTypes.number
+}
+ 
+FirstApp.defaultProps = {
+    title: 'No hay título',
+    subTitle: 25,
 }
