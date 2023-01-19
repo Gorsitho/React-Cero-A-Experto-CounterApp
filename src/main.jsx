@@ -10,7 +10,7 @@ import './styles.css'; // Global Styles
 
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
-        <App/>
+        <App />
         <CounterApp/>
     </React.StrictMode>
 );

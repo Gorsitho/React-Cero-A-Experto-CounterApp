@@ -16,5 +16,17 @@ button{
     outline-color: white;
     outline-width: 20px;
     background-color: black;
+    margin-right: 10px;
+    font-size: 50px;
 
 }
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+
